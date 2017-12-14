@@ -62,16 +62,17 @@ img:nth-child(5) {
 @media only screen and (min-width: 38em) {
 
   img:nth-child(2) {
-    width: 33.333%;
+    width: 33.3333%;
   }
 
   img:nth-child(3) {
-    width: 33.333%;
+    width: 33.3333%;
   }
 
   img:nth-child(4) {
-    width: 33.333%;
+    width: 33.3333%;
   }
+
   img:nth-child(5) {
     display: none;
   }
@@ -82,12 +83,13 @@ img:nth-child(5) {
 
   img:nth-child(1) {
     float: left;
-    width: 66.666%;
+    width: 66.6666%;
   }
 
   img:nth-child(5) {
-    display: inline;
-    width: 33.333%;
+    display: inline-block;
+    float: left;
+    width: 33.3333%;
   }
 
 }
